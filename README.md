@@ -1,8 +1,8 @@
 # dj-pagination
 
-![https://travis-ci.org/pydanny/dj-pagination](https://travis-ci.org/pydanny/dj-pagination.svg?branch=master)
+[![https://travis-ci.org/pydanny/dj-pagination](https://travis-ci.org/pydanny/dj-pagination.svg?branch=master)](https://travis-ci.org/pydanny/dj-paginatio)
 
-![https://codecov.io/github/pydanny/django-pagination?branch=master](https://codecov.io/gh/pydanny/dj-pagination/branch/master/graphs/badge.svg?branch=master&service=github)
+[![https://codecov.io/github/pydanny/django-pagination?branch=master](https://codecov.io/gh/pydanny/dj-pagination/branch/master/graphs/badge.svg?branch=master&service=github)](https://codecov.io/gh/pydanny/dj-pagination)
 
 # How to use dj-pagination
 

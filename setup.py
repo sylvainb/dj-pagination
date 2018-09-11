@@ -36,7 +36,7 @@ import sys
 
 os.environ["DJANGO_SETTINGS_MODULE"] = "dj_pagination.tests.settings"
 
-version = "2.3.3"
+version = "2.4.0"
 
 if sys.argv[-1] == "publish":
     os.system("pip install -U twine wheel")
@@ -57,7 +57,8 @@ setup(
     author="Daniel Roy Greenfeld",
     author_email="pydanny@gmail.com",
     description="Django + Pagination Made Easy",
-    long_description=open("README.rst").read(),
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
     keywords="pagination,django",
     url="https://github.com/pydanny/dj-pagination",
     test_suite="dj_pagination.tests.runner.runtests",
@@ -77,10 +78,8 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
-        "Programming Language :: Python :: 3.6"
+        "Programming Language :: Python :: 3.6",
     ],
-    extras_require={
-        ':python_version < "3.0"': ["Django<2.0"]
-    },
+    extras_require={':python_version < "3.0"': ["Django<2.0"]},
     include_package_data=True,
 )

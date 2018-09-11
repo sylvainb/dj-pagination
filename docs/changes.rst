@@ -2,7 +2,14 @@ Version History
 ***************
 
 
-.. _version_2_3_2:
+.. _version_2_4_0:
+
+Version 2.4.0
+==============
+
+* Markdown readme
+* Formal support for Django 2.0 and 2.1
+* Remove support for unsupported versions of Python and Django
 
 Version 2.3.3
 ==============

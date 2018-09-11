@@ -28,8 +28,7 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-from django.conf.urls.defaults import (
-    patterns, url, include, handler500, handler404)
+from django.conf.urls.defaults import patterns, url, include, handler500, handler404
 
 # Empty patterns so that test project can be started and would work normally
-urlpatterns = patterns('', url('', include('example.urls')))
+urlpatterns = patterns("", url("", include("example.urls")))

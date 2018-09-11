@@ -41,15 +41,14 @@ from django_testproject.settings import gen_settings
 
 locals().update(
     gen_settings(
-        INSTALLED_APPS=[
-            'example',
-            'dj_pagination'],
-        MIDDLEWARE_CLASSES=[
-            'dj_pagination.middleware.PaginationMiddleware'],
+        INSTALLED_APPS=["example", "dj_pagination"],
+        MIDDLEWARE_CLASSES=["dj_pagination.middleware.PaginationMiddleware"],
         TEMPLATE_CONTEXT_PROCESSORS=[
             # Request processor needs to be enabled
-            'django.core.context_processors.request'],
-        ROOT_URLCONF="dj_pagination.test_project.urls"),
-        TEMPLATE_LOADERS = ['django.template.loaders.app_directories.Loader'],
-        SECRET_KEY = 'not for production',
-    )
+            "django.core.context_processors.request"
+        ],
+        ROOT_URLCONF="dj_pagination.test_project.urls",
+    ),
+    TEMPLATE_LOADERS=["django.template.loaders.app_directories.Loader"],
+    SECRET_KEY="not for production",
+)

@@ -34,34 +34,34 @@ import os
 from setuptools import setup, find_packages
 import sys
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'dj_pagination.tests.settings'
+os.environ["DJANGO_SETTINGS_MODULE"] = "dj_pagination.tests.settings"
 
-version = "2.3.2"
+version = "2.3.3"
 
-if sys.argv[-1] == 'publish':
-    os.system('pip install -U twine wheel')
-    os.system('python setup.py sdist bdist_wheel')
-    os.system('twine upload dist/*')
+if sys.argv[-1] == "publish":
+    os.system("pip install -U twine wheel")
+    os.system("python setup.py sdist bdist_wheel")
+    os.system("twine upload dist/*")
     sys.exit()
 
-if sys.argv[-1] == 'tag':
+if sys.argv[-1] == "tag":
     print("Tagging the version on github:")
     os.system("git tag -a %s -m 'version %s'" % (version, version))
     os.system("git push --tags")
     sys.exit()
 
 setup(
-    name='dj-pagination',
+    name="dj-pagination",
     # Magic version handling with versiontools
     version=version,
-    author='Daniel Roy Greenfeld',
-    author_email='pydanny@gmail.com',
+    author="Daniel Roy Greenfeld",
+    author_email="pydanny@gmail.com",
     description="Django + Pagination Made Easy",
     long_description=open("README.rst").read(),
-    keywords='pagination,django',
-    url='https://github.com/pydanny/dj-pagination',
+    keywords="pagination,django",
+    url="https://github.com/pydanny/dj-pagination",
     test_suite="dj_pagination.tests.runner.runtests",
-    license='BSD',
+    license="BSD",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -69,6 +69,8 @@ setup(
         "Framework :: Django :: 1.9",
         "Framework :: Django :: 1.10",
         "Framework :: Django :: 1.11",
+        "Framework :: Django :: 2.0",
+        "Framework :: Django :: 2.1",
         "Environment :: Web Environment",
         "Framework :: Django",
         "Intended Audience :: Developers",
@@ -82,8 +84,8 @@ setup(
         "Programming Language :: Python :: 3.6",
     ],
     extras_require={
-        ':python_version < "3.0"': ['Django>=1.8,<2.0'],
-        ':python_version >= "3.0"': ['Django>=1.8'],
+        ':python_version < "3.0"': ["Django>=1.8,<2.0"],
+        ':python_version >= "3.0"': ["Django>=1.8"],
     },
     include_package_data=True,
 )

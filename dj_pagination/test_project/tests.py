@@ -31,8 +31,9 @@
 
 def run_tests():
     from django_testproject.tests import run_tests_for
+
     run_tests_for("dj_pagination.test_project.settings")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run_tests()

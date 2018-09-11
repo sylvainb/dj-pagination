@@ -29,10 +29,8 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-from django.conf.urls.defaults import (
-    patterns, url, include, handler500, handler404)
+from django.conf.urls.defaults import patterns, url, include, handler500, handler404
 
 urlpatterns = patterns(
-    'example.views',
-    url(r'^list/$', 'list'),
-    url(r'^complex-list/$', 'complex_list'))
+    "example.views", url(r"^list/$", "list"), url(r"^complex-list/$", "complex_list")
+)

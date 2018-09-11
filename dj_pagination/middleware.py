@@ -42,7 +42,7 @@ def get_page(self, suffix):
     """
     try:
         # REQUEST is deprecated as of Django 1.7.
-        key = 'page%s' % suffix
+        key = "page%s" % suffix
         value = self.POST.get(key)
         if value is None:
             value = self.GET.get(key)
@@ -56,5 +56,6 @@ class PaginationMiddleware(MiddlewareMixin):
     Inserts a variable representing the current page onto the request object if
     it exists in either **GET** or **POST** portions of the request.
     """
+
     def process_request(self, request):
         request.__class__.page = get_page

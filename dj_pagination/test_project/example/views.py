@@ -34,13 +34,17 @@ from django.template import RequestContext
 
 
 def list(request):
-    return render_to_response("example/list.html", {
-        'item_list': range(1000),
-    }, RequestContext(request))
+    return render_to_response(
+        "example/list.html", {"item_list": range(1000)}, RequestContext(request)
+    )
 
 
 def complex_list(request):
-    return render_to_response("example/two_lists.html", {
-        'first_item_list': ["first list item %d" % item for item in range(1000)],
-        'second_item_list': ["second list item %d" % item for item in range(1000)],
-    }, RequestContext(request))
+    return render_to_response(
+        "example/two_lists.html",
+        {
+            "first_item_list": ["first list item %d" % item for item in range(1000)],
+            "second_item_list": ["second list item %d" % item for item in range(1000)],
+        },
+        RequestContext(request),
+    )

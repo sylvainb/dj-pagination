@@ -7,7 +7,8 @@ Version History
 Version 2.3.3
 ==============
 
-Formal support for Django 2.0 and 2.1
+* Formal support for Django 2.0 and 2.1
+* Remove support for unsupported versions of Python and Django
 
 
 Version 2.3.2

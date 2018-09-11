@@ -5,7 +5,7 @@ dj-pagination Documentation
 .. automodule:: dj_pagination
 
 .. seealso:: To get started quickly see :ref:`usage`
-.. seealso:: See what's new in :ref:`version_2_0_4`
+.. seealso:: See what's new in :ref:`version_2_3_3`
 
 Features
 ========

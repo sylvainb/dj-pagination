@@ -4,6 +4,12 @@ Version History
 
 .. _version_2_3_2:
 
+Version 2.3.3
+==============
+
+Formal support for Django 2.0 and 2.1
+
+
 Version 2.3.2
 ==============
 

@@ -9,12 +9,16 @@
 See our official documentation for more details.
 http://dj-pagination.readthedocs.io/
 
+# Support this Project!
 
-# This project is sponsored by BriteCore
+This project is run by a voluntees. Please support them in their efforts to maintain and improve Cookiecutter Django:
 
-BriteCore does awesome things with Python, Django, JavaScript, and AWS. [Apply for a job if you're interested!](http://engineering-application.britecore.com)
+* [Daniel Feldroy](https://github.com/sponsors/pydanny)
 
-[![](https://avatars1.githubusercontent.com/u/967173?s=200&v=4)](http://engineering-application.britecore.com)
+Projects that provide financial support to the maintainer:
+
+- [Django Crash Course 3.x](https://www.feldroy.com/products/django-crash-course)
+- [Two Scoops of Django 3.x](https://www.feldroy.com/products/two-scoops-of-django-3-x)
 
 
 # About the fork

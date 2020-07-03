@@ -13,7 +13,7 @@ http://dj-pagination.readthedocs.io/
 
 This project is run by a voluntees. Please support them in their efforts to maintain and improve Cookiecutter Django:
 
-* [Daniel Feldroy](https://github.com/sponsors/pydanny)
+* [pydanny on GitHub](https://github.com/sponsors/pydanny)
 
 Projects that provide financial support to the maintainer:
 

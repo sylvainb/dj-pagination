@@ -11,7 +11,7 @@ http://dj-pagination.readthedocs.io/
 
 # Support this Project!
 
-- [Buy Two Scoops of Django 3.x so you will have the skills to build projects like this one](https://www.feldroy.com/products/two-scoops-of-django-3-x)
+- [Buy Two Scoops of Django 3.x to develop the skills to build better projects](https://www.feldroy.com/products/two-scoops-of-django-3-x)
 - [Learn the fundamentals with Django Crash Course](https://www.feldroy.com/products/django-crash-course)
 - [Sponsor the maintainer directly](https://github.com/sponsors/pydanny)
 

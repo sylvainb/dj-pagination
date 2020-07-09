@@ -11,14 +11,9 @@ http://dj-pagination.readthedocs.io/
 
 # Support this Project!
 
-This project is run by a voluntees. Please support them in their efforts to maintain and improve Cookiecutter Django:
-
-* [pydanny on GitHub](https://github.com/sponsors/pydanny)
-
-Projects that provide financial support to the maintainer:
-
-- [Django Crash Course 3.x](https://www.feldroy.com/products/django-crash-course)
-- [Two Scoops of Django 3.x](https://www.feldroy.com/products/two-scoops-of-django-3-x)
+- [Buy Two Scoops of Django 3.x so you will have the skills to build projects like this one](https://www.feldroy.com/products/two-scoops-of-django-3-x)
+- [Learn the fundamentals with Django Crash Course](https://www.feldroy.com/products/django-crash-course)
+- [Sponsor the maintainer directly](https://github.com/sponsors/pydanny)
 
 
 # About the fork

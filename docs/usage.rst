@@ -17,7 +17,7 @@ installation, which is covered in :ref:`installation`.)
 
         INSTALLED_APPS = (
             # ...
-            'dj_pagination',
+            'dj_pagination.apps.DjPaginationConfig',
         )
 
 
